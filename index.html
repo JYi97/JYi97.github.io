@@ -30,11 +30,22 @@
 				<div class="inner">
 					<h1>Justin Yi</h1>
 					<p>A full-stack software engineer located in Los Angeles, California.
-						<br />
-						<a
+					<div>
+
+						<a class="resume-title"
 							href="https://drive.google.com/file/d/1kvCa3ZgnXXf6VENeApUculf13AC2PHEn/view?usp=sharing">Resume</a>
-						<br />
+
+					</div>
+
 					</p>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/justin-yi-dev/" class="icon brands fa-linkedin"><span
+									class="label">LinkedIn</span></a></li>
+						<li><a href="https://angel.co/u/justin-yi-7" class="icon brands fa-angellist"><span
+									class="label">AngelList</span></a></li>
+						<li><a href="https://github.com/JYi97" class="icon brands fa-github"><span
+									class="label">GitHub</span></a></li>
+					</ul>
 				</div>
 			</div>
 			<nav>
@@ -42,7 +53,7 @@
 					<li><a href="#about">About</a></li>
 					<li><a href="#intro">Skills</a></li>
 					<li><a href="#work">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<!-- <li><a href="#contact">Contact</a></li> -->
 					<!--<li><a href="#elements">Elements</a></li>-->
 				</ul>
 			</nav>
@@ -53,7 +64,16 @@
 
 			<!-- Intro -->
 			<article id="intro">
-				<h2 class="major">Skills</h2>
+				<div class="about-navigation-buttons-container">
+
+					<h2 class="major">Skills</h2>
+					<div class="navigation-button-containers">
+						<a class="about-right-navigation"
+							href="file://wsl%24/Ubuntu-18.04/home/justin/Mod-7/Portfolio/index.html#about">About</a>
+						<a class="about-right-navigation"
+							href="file://wsl%24/Ubuntu-18.04/home/justin/Mod-7/Portfolio/index.html#work">Projects</a>
+					</div>
+				</div>
 				<ul class="skills-list">
 					<div class="skill-icon-title">
 						<img src="images/react.png" width="175">
@@ -122,7 +142,15 @@
 
 			<!-- Work -->
 			<article id="work">
-				<h2 class="major">Ice Bear To-Do's</h2>
+				<div class="about-navigation-buttons-container">
+					<h2 class="major">Ice Bear To-Do's</h2>
+					<div class="navigation-button-containers">
+						<a class="about-right-navigation"
+							href="file://wsl%24/Ubuntu-18.04/home/justin/Mod-7/Portfolio/index.html#about">About</a>
+						<a class="about-right-navigation"
+							href="file://wsl%24/Ubuntu-18.04/home/justin/Mod-7/Portfolio/index.html#intro">Skills</a>
+					</div>
+				</div>
 				<span class="image main"><img src="images/icebearnewhome.PNG" alt="" /></span>
 				<p>Ice Bear's To-Do's allows users to create folders with unique titles and they can view each folder.
 					Within each folder details page, users are also able to create unique activities with an optional
@@ -141,9 +169,6 @@
 					<br />
 					Developed with Python, Flask, and React.
 				</p>
-			</article>
-
-			<article id="work">
 				<h2 class="major">Sea</h2>
 				<span class="image main"><img src="images/seasplash.PNG" alt="" /></span>
 				<p>Sea is a Robinhood clone that allow users to experience a mock-up of the American financial market
@@ -158,26 +183,33 @@
 					<br />
 					Developed with Python, Flask, and React with three other talented developers.
 				</p>
-			</article>
-
-			<article id="work">
 				<h2 class="major">RaveLand</h2>
-				<span class="image main"><img src="images/raveland.PNG" alt="" /></span>
-				<p>RaveLand is a clone of Yelp but with rave events instead of a businesses. It allows users to view and
-					post raves that they have attended. Users can also comment or like each post to share their personal
-					experiences and thoughts about the rave. </p>
+				<span class="image main"><img src="images/ravelandhome.PNG" alt="" /></span>
+				<p>RaveLand is an open platform where users can share their experiences with raves that they have
+					attended in the past or going to attend in the future. Users can view what other users have posted.
+					They can also leave a comment on raves to share their favorite experience in that rave as well as
+					pictures. The rave community is very welcoming and RaveLand definitely invites users to join. </p>
 				<p>
 					<a href="https://raveland.herokuapp.com/">View</a>
 					<br />
 					<a href="https://github.com/JYi97/raveland">Repo</a>
 					<br />
-					Developed with JavaScript, Express.js, and React.
+					Developed with Node.js, Express.js, and React.
 				</p>
 			</article>
 
 			<!-- About -->
 			<article id="about">
-				<h2 class="major">About</h2>
+				<div class="about-navigation-buttons-container">
+					<h2 class="major">About</h2>
+					<div class="navigation-button-containers">
+						<a class="about-right-navigation"
+							href="file://wsl%24/Ubuntu-18.04/home/justin/Mod-7/Portfolio/index.html#intro">Skills</a>
+						<a class="about-right-navigation"
+							href="file://wsl%24/Ubuntu-18.04/home/justin/Mod-7/Portfolio/index.html#work">Projects</a>
+					</div>
+				</div>
+
 				<span class="image main"><img src="images/newportpic.PNG" alt="" /></span>
 				<p>
 					Hi, I'm Justin!
@@ -207,7 +239,7 @@
 			</article>
 
 			<!-- Contact -->
-			<article id="contact">
+			<!-- <article id="contact">
 				<h2 class="major">Contact</h2>
 				<form method="post" action="#">
 					<div class="fields">
@@ -229,15 +261,8 @@
 						<li><input type="reset" value="Reset" /></li>
 					</ul>
 				</form>
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/justin-yi-dev/" class="icon brands fa-linkedin"><span
-								class="label">LinkedIn</span></a></li>
-					<li><a href="https://angel.co/u/justin-yi-7" class="icon brands fa-angellist"><span
-								class="label">AngelList</span></a></li>
-					<li><a href="https://github.com/JYi97" class="icon brands fa-github"><span
-								class="label">GitHub</span></a></li>
-				</ul>
-			</article>
+
+			</article> -->
 
 			<!-- Elements -->
 			<article id="elements">

@@ -7,6 +7,30 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.navigation-button-containers {
+	margin-top: 12px;
+}
+
+.resume-title {
+	border: solid;
+	border-width: 1px;
+	padding: 14px 28px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.about-navigation-buttons-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-right-navigation {
+	height: 100%;
+	border: solid;
+	border-width: 1px;
+	padding: 10px;
+	font-size: 24px
+}
+
 .skill-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -268,9 +292,6 @@ a {
 	color: inherit;
 }
 
-a:hover {
-	border-bottom-color: transparent;
-}
 
 strong,
 b {
@@ -1050,6 +1071,8 @@ ul.icons li a {
 	width: 2.25rem;
 }
 
+.about-right-navigation:hover,
+.resume-title:hover,
 ul.icons li a:hover {
 	background-color: rgba(255, 255, 255, 0.075);
 }
